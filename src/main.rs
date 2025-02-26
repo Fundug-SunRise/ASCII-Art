@@ -23,7 +23,7 @@ fn main() {
     let image = image::open(path).expect("Нету изображения");
     let (width, height) = image.dimensions();
 
-    let gradient: Vec<char> = vec![' ','.',':','!','/','r','(','|','1','Z','4','H','9','W','8','$','@'];
+    let gradient: Vec<char> = vec!['@','$','8','W','9','H','4','Z','1','|','(','r','/','!',':','.',' '];
 
 /*    let crWin = thread::spawn(move ||{
         create_window(image.clone());
